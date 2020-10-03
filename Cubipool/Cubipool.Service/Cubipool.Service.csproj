@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Cubipool.Common\Cubipool.Common.csproj" />
+    <ProjectReference Include="..\Cubipool.Entity\Cubipool.Entity.csproj" />
+    <ProjectReference Include="..\Cubipool.Repository\Cubipool.Repository.csproj" />
+  </ItemGroup>
+
+</Project>

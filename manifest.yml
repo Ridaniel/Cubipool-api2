@@ -1,0 +1,14 @@
+---
+applications:
+- name: Cubipool.Api
+  path: ./Cubipool.API
+- name: Cubipool.Service
+  path: ./Cubipool.Service
+- name: Cubipool.Common
+  path: ./Cubipool.Common
+- name: Cubipool.Entity
+  path: ./Cubipool.Entity
+- name: Cubipool.Repository
+  path: ./Cubipool.Repository
+
+  memory: 1GB

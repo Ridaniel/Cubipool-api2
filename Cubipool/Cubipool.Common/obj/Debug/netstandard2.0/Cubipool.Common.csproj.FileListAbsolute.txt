@@ -1,0 +1,9 @@
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Common\bin\Debug\netstandard2.0\Cubipool.Common.deps.json
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Common\bin\Debug\netstandard2.0\Cubipool.Common.dll
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Common\bin\Debug\netstandard2.0\Cubipool.Common.pdb
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Common\obj\Debug\netstandard2.0\Cubipool.Common.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Common\obj\Debug\netstandard2.0\Cubipool.Common.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Common\obj\Debug\netstandard2.0\Cubipool.Common.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Common\obj\Debug\netstandard2.0\Cubipool.Common.AssemblyInfo.cs
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Common\obj\Debug\netstandard2.0\Cubipool.Common.dll
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Common\obj\Debug\netstandard2.0\Cubipool.Common.pdb

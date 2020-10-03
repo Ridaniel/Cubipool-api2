@@ -1,0 +1,6 @@
+---
+applications:
+- name: Cubipool.Api
+  path: ./Cubipool/Cubipool.API
+
+  memory: 1GB
