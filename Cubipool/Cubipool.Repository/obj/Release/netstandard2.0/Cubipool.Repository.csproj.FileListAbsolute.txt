@@ -1,0 +1,14 @@
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Repository\bin\Release\netstandard2.0\Cubipool.Repository.deps.json
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Repository\bin\Release\netstandard2.0\Cubipool.Repository.dll
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Repository\bin\Release\netstandard2.0\Cubipool.Repository.pdb
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Repository\bin\Release\netstandard2.0\Cubipool.Common.dll
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Repository\bin\Release\netstandard2.0\Cubipool.Entity.dll
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Repository\bin\Release\netstandard2.0\Cubipool.Common.pdb
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Repository\bin\Release\netstandard2.0\Cubipool.Entity.pdb
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Repository\obj\Release\netstandard2.0\Cubipool.Repository.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Repository\obj\Release\netstandard2.0\Cubipool.Repository.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Repository\obj\Release\netstandard2.0\Cubipool.Repository.AssemblyInfo.cs
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Repository\obj\Release\netstandard2.0\Cubipool.Repository.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Repository\obj\Release\netstandard2.0\Cubipool.Repository.csproj.CopyComplete
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Repository\obj\Release\netstandard2.0\Cubipool.Repository.dll
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Repository\obj\Release\netstandard2.0\Cubipool.Repository.pdb

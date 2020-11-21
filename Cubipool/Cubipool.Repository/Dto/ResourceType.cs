@@ -2,7 +2,7 @@
 {
 	public class ResourceType
 	{
-		public const int TableId = 4;
+		public const int TableId = 2;
 		public int Id { get; set; }
 		public string Name { get; set; }
 	}

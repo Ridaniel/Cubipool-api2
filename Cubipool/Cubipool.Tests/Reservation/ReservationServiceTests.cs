@@ -12,8 +12,11 @@ using Cubipool.Service.Dtos.Reservations;
 using Microsoft.EntityFrameworkCore;
 using Xunit;
 
+
 namespace Cubipool.Tests.Reservation
 {
+}
+	/*
 	public class ReservationServiceTests
 	{
 		
@@ -229,4 +232,4 @@ namespace Cubipool.Tests.Reservation
 	}
 	
 	
-}
+}*/

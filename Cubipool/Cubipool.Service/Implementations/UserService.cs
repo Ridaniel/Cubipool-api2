@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Cubipool.Common.Exceptions;
+using System;
 
 namespace Cubipool.Service.Implementations
 {
@@ -29,12 +30,20 @@ namespace Cubipool.Service.Implementations
 		}
 
 		public async Task<GetUserResponseDto> GetOneByStudentCodeAsync(string code)
-		{
-			var foundUser = await userRepository.GetOneByStudentCodeAsync(code);
-			if (foundUser == null)
-				throw new NotFoundException($"User with code={code} was not found");
+        {
+			try
+			{
+				var foundUser = await userRepository.GetOneByStudentCodeAsync(code);
+				if (foundUser == null)
+					throw new NotFoundException($"User with code={code} was not found");
 
-			return GetUserResponseDto.FromUser(foundUser);
+				return GetUserResponseDto.FromUser(foundUser);
+			}
+			catch (Exception e)
+			{
+
+				return null;
+			}
 		}
 
 		public async Task<GetUserResponseDto> DeleteOneByIdAsync(int id)

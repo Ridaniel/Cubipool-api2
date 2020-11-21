@@ -1,0 +1,12 @@
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Entity\bin\Release\netstandard2.0\Cubipool.Entity.deps.json
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Entity\bin\Release\netstandard2.0\Cubipool.Entity.dll
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Entity\bin\Release\netstandard2.0\Cubipool.Entity.pdb
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Entity\bin\Release\netstandard2.0\Cubipool.Common.dll
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Entity\bin\Release\netstandard2.0\Cubipool.Common.pdb
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Entity\obj\Release\netstandard2.0\Cubipool.Entity.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Entity\obj\Release\netstandard2.0\Cubipool.Entity.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Entity\obj\Release\netstandard2.0\Cubipool.Entity.AssemblyInfo.cs
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Entity\obj\Release\netstandard2.0\Cubipool.Entity.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Entity\obj\Release\netstandard2.0\Cubipool.Entity.csproj.CopyComplete
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Entity\obj\Release\netstandard2.0\Cubipool.Entity.dll
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Entity\obj\Release\netstandard2.0\Cubipool.Entity.pdb

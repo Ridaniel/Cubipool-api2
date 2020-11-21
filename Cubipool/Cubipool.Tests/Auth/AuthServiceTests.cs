@@ -9,9 +9,10 @@ using Cubipool.Service.Dtos;
 using Cubipool.Service.Implementations;
 using Microsoft.EntityFrameworkCore;
 using Xunit;
-
+/*
 namespace Cubipool.Tests.Auth
 {
+	[FeatureFile("./Authentication.feature")]
 	public class AuthServiceTests
 	{
 		private IAuthService _authService;
@@ -33,10 +34,10 @@ namespace Cubipool.Tests.Auth
 			_userService = new UserService(new UserRepository(dbContext));
 		}
 
-		#region Register
-		
-		[Fact]
-		public async void Register_UserRegistersSuccessfully()
+
+
+		[Given(@"mi ([^\s]+)")]
+		public async void Register_UserRegistersSuccessfully(string usuario)
 		{
 			// Arrange
 			string username = "U100000001";
@@ -64,7 +65,9 @@ namespace Cubipool.Tests.Auth
 			// Assert
 			Assert.NotNull(registeredUser);
 		}
-
+	}
+}
+		
 		[Fact]
 		public async void Register_Username_IsNotStudentCode()
 		{
@@ -140,9 +143,6 @@ namespace Cubipool.Tests.Auth
 			Assert.Equal("Contraseña invalida", exception.Message);
 		}
 
-		#endregion
-		
-		#region Login
 
 		[Fact]
 		public async void Login_UserLoginsSuccessfully()
@@ -247,7 +247,6 @@ namespace Cubipool.Tests.Auth
 			Assert.Equal("Contraseña invalida", exception.Message);
 		}
 
-		#endregion
 		
 	}
 }

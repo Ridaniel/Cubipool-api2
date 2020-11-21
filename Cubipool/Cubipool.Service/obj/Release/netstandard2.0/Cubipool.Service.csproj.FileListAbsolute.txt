@@ -1,0 +1,16 @@
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Service\bin\Release\netstandard2.0\Cubipool.Service.deps.json
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Service\bin\Release\netstandard2.0\Cubipool.Service.dll
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Service\bin\Release\netstandard2.0\Cubipool.Service.pdb
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Service\bin\Release\netstandard2.0\Cubipool.Common.dll
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Service\bin\Release\netstandard2.0\Cubipool.Entity.dll
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Service\bin\Release\netstandard2.0\Cubipool.Repository.dll
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Service\bin\Release\netstandard2.0\Cubipool.Common.pdb
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Service\bin\Release\netstandard2.0\Cubipool.Entity.pdb
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Service\bin\Release\netstandard2.0\Cubipool.Repository.pdb
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Service\obj\Release\netstandard2.0\Cubipool.Service.csprojAssemblyReference.cache
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Service\obj\Release\netstandard2.0\Cubipool.Service.AssemblyInfoInputs.cache
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Service\obj\Release\netstandard2.0\Cubipool.Service.AssemblyInfo.cs
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Service\obj\Release\netstandard2.0\Cubipool.Service.csproj.CoreCompileInputs.cache
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Service\obj\Release\netstandard2.0\Cubipool.Service.csproj.CopyComplete
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Service\obj\Release\netstandard2.0\Cubipool.Service.dll
+C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Service\obj\Release\netstandard2.0\Cubipool.Service.pdb

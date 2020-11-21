@@ -15,8 +15,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cubipool.Common", "Cubipool
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Cubipool.Tests", "Cubipool.Tests\Cubipool.Tests.csproj", "{74FF4748-9D6D-4D7F-9E6D-5EDFC06A21C4}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cubipool.BDD", "Cubipool.BDD\Cubipool.BDD.csproj", "{0E837B2A-C826-43BB-9D49-E9B200A90978}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -47,10 +45,6 @@ Global
 		{74FF4748-9D6D-4D7F-9E6D-5EDFC06A21C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74FF4748-9D6D-4D7F-9E6D-5EDFC06A21C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74FF4748-9D6D-4D7F-9E6D-5EDFC06A21C4}.Release|Any CPU.Build.0 = Release|Any CPU
-		{0E837B2A-C826-43BB-9D49-E9B200A90978}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{0E837B2A-C826-43BB-9D49-E9B200A90978}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{0E837B2A-C826-43BB-9D49-E9B200A90978}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{0E837B2A-C826-43BB-9D49-E9B200A90978}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
