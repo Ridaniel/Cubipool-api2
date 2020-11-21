@@ -1,8 +1,0 @@
-C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Common\bin\Debug\netcoreapp3.1\Cubipool.Common.deps.json
-C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Common\bin\Debug\netcoreapp3.1\Cubipool.Common.dll
-C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Common\bin\Debug\netcoreapp3.1\Cubipool.Common.pdb
-C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Common\obj\Debug\netcoreapp3.1\Cubipool.Common.AssemblyInfoInputs.cache
-C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Common\obj\Debug\netcoreapp3.1\Cubipool.Common.AssemblyInfo.cs
-C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Common\obj\Debug\netcoreapp3.1\Cubipool.Common.csproj.CoreCompileInputs.cache
-C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Common\obj\Debug\netcoreapp3.1\Cubipool.Common.dll
-C:\Users\Asus\Desktop\cubipool-api-development\Cubipool\Cubipool.Common\obj\Debug\netcoreapp3.1\Cubipool.Common.pdb
