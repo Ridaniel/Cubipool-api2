@@ -2281,7 +2281,7 @@
       },
       "Cubipool.Common/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "compile": {
           "bin/placeholder/Cubipool.Common.dll": {}
         },
@@ -2291,7 +2291,7 @@
       },
       "Cubipool.Entity/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Cubipool.Common": "1.0.0",
           "System.ComponentModel.Annotations": "4.7.0"
@@ -2305,7 +2305,7 @@
       },
       "Cubipool.Repository/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Cubipool.Common": "1.0.0",
           "Cubipool.Entity": "1.0.0",
@@ -2321,7 +2321,7 @@
       },
       "Cubipool.Service/1.0.0": {
         "type": "project",
-        "framework": ".NETStandard,Version=v2.0",
+        "framework": ".NETCoreApp,Version=v3.1",
         "dependencies": {
           "Cubipool.Common": "1.0.0",
           "Cubipool.Entity": "1.0.0",

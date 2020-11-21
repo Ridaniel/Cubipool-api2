@@ -1,11 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "yVtLtaqkwzfiYHk8bXze7ep9B/NXbW2so96G35QwnEj2yIXJTKSZHLlDxOw+Tgq9gnrli6w6Z2v7Q5lhEN68Lg==",
+  "dgSpecHash": "5I5srOKdSZeRXE8AFEvPgZxnS75JVYI/KhqCFm/uw5/ouy826XnKLWEXzRyH/iG/nIbL3rTkn+nFS5N8h7GU0Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Asus\\Desktop\\cubipool-api-development\\Cubipool\\Cubipool.Common\\Cubipool.Common.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Asus\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
-    "C:\\Users\\Asus\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }
