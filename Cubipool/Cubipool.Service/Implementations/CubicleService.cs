@@ -72,8 +72,8 @@ namespace Cubipool.Service.Implementations
 
 
 			// Validando que la Hora de busqueda sea correcta
-			if (filtersDto.StartTime.Minute != 0 || filtersDto.StartTime.Second != 0)
-				throw new BadRequestException("Reservation StartTime cannot has Minutes or Seconds");
+		//	if (filtersDto.StartTime.Minute != 0 || filtersDto.StartTime.Second != 0)
+			//	throw new BadRequestException("Reservation StartTime cannot has Minutes or Seconds");
 
 
 			// Validando que la hora de busqueda se encuentre en el rango [7-23]

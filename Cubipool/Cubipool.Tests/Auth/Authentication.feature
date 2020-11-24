@@ -19,3 +19,20 @@ Scenario: Login realizado con exito
 	When ambos son correctos
 	Then me sale un mensaje diciendo que se accedio correctamente
 
+Scenario: Formato usuario incorrecto
+	Given mi usuario  20161C808
+	And contraseña  12345678
+	When alguno es incorrecto
+	Then me sale un mensaje diciendo usuario incorrecto
+
+Scenario: Formato usuario registro incorrecto
+	Given mi usuario  20161C808
+	And contraseña  12345678
+	When alguno es incorrecto
+	Then me sale un mensaje diciendo usuario incorrecto registrame
+
+Scenario: contraseña muy corta
+	Given mi usuario  u20161C810
+	And contraseña  1234567
+	When ambos son correctos
+	Then me sale un mensaje contraseña muy corta

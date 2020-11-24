@@ -67,10 +67,10 @@ namespace Cubipool.Service.Implementations
                 throw new BadRequestException($"Los cubículos son solo de 7:00 am a 11:00 pm");
             }
 
-            if (reservationDTO.StartTime.DayOfWeek == DayOfWeek.Sunday)
+       /*     if (reservationDTO.StartTime.DayOfWeek == DayOfWeek.Sunday)
             {
                 throw new BadRequestException($"Los cubículos no estan disponibles los domingos.");
-            }
+            }*/
 
             TimeSpan validate24Hrs = DateTime.Now.Subtract(reservationDTO.EndTime);
             if (validate24Hrs.Days >= 1)

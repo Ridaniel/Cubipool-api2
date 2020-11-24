@@ -121,7 +121,7 @@ namespace Cubipool.Service.Implementations
 			var index = password.IndexOf(' ');
 			if (index != -1) return false;
 			
-			return password.Length <= 20;
+			return password.Length <= 20 && password.Length>=8;
 		}
 	}
 }

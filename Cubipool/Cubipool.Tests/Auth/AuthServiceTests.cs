@@ -9,10 +9,10 @@ using Cubipool.Service.Dtos;
 using Cubipool.Service.Implementations;
 using Microsoft.EntityFrameworkCore;
 using Xunit;
-/*
+
 namespace Cubipool.Tests.Auth
 {
-	[FeatureFile("./Authentication.feature")]
+	
 	public class AuthServiceTests
 	{
 		private IAuthService _authService;
@@ -26,7 +26,7 @@ namespace Cubipool.Tests.Auth
 		public void Initialize()
 		{
 			var dbOptionsBuilder = new DbContextOptionsBuilder<EFDbContext>().UseNpgsql(
-				"Host=ec2-54-152-175-141.compute-1.amazonaws.com;Port=5432;Username=dyythqhlwyzygs;Password=dd83b54f0cd9fa81cda16fe8dfbc89c3279d1c174ab9d9fb9d5a846c41935006;Database=de5nt8ke1tan16;Pooling=true;SSL Mode=Require;TrustServerCertificate=True;");
+				"Host=ec2-54-84-98-18.compute-1.amazonaws.com;Port=5432;Username=honcqzwcqsbwvu;Password=d40a611c2f83daff6ca3ae9943198ea613fe7efe5cdfe79e390d1e55eeb3b566;Database=dfdhq1hhddqbg6;SSL Mode=Require;Trust Server Certificate=true; Pooling=true");
 			var dbContext = new EFDbContext(dbOptionsBuilder.Options);
 
 			// Implementing services
@@ -34,9 +34,6 @@ namespace Cubipool.Tests.Auth
 			_userService = new UserService(new UserRepository(dbContext));
 		}
 
-
-
-		[Given(@"mi ([^\s]+)")]
 		public async void Register_UserRegistersSuccessfully(string usuario)
 		{
 			// Arrange
@@ -65,8 +62,6 @@ namespace Cubipool.Tests.Auth
 			// Assert
 			Assert.NotNull(registeredUser);
 		}
-	}
-}
 		
 		[Fact]
 		public async void Register_Username_IsNotStudentCode()
@@ -147,9 +142,10 @@ namespace Cubipool.Tests.Auth
 		[Fact]
 		public async void Login_UserLoginsSuccessfully()
 		{
-			// Arrange
-			string username = "U100000001";
-			string password = "U100000001";
+			try
+			{// Arrange
+				string username = "U100000001";
+			string password = "12345678";
 
 			// Si el usuario de prueba no existe, crearlo
 			var found = await _userService.GetOneByStudentCodeAsync(username);
@@ -158,9 +154,10 @@ namespace Cubipool.Tests.Auth
 
 			// Act
 			User foundUser;
-			try
-			{
+			
 				foundUser = await _authService.LoginAsync(username, password);
+
+				Assert.NotNull(foundUser);
 			}
 			catch (Exception e)
 			{
@@ -169,7 +166,7 @@ namespace Cubipool.Tests.Auth
 
 
 			// Assert
-			Assert.NotNull(foundUser);
+
 		}
 		
 		[Fact]

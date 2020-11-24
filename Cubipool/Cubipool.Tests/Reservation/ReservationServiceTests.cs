@@ -15,8 +15,7 @@ using Xunit;
 
 namespace Cubipool.Tests.Reservation
 {
-}
-	/*
+
 	public class ReservationServiceTests
 	{
 		
@@ -27,7 +26,7 @@ namespace Cubipool.Tests.Reservation
 		public ReservationServiceTests()
 		{
 			var dbOptionsBuilder = new DbContextOptionsBuilder<EFDbContext>().UseNpgsql(
-				"Host=ec2-54-152-175-141.compute-1.amazonaws.com;Port=5432;Username=dyythqhlwyzygs;Password=dd83b54f0cd9fa81cda16fe8dfbc89c3279d1c174ab9d9fb9d5a846c41935006;Database=de5nt8ke1tan16;Pooling=true;SSL Mode=Require;TrustServerCertificate=True;");
+				"Host=ec2-54-84-98-18.compute-1.amazonaws.com;Port=5432;Username=honcqzwcqsbwvu;Password=d40a611c2f83daff6ca3ae9943198ea613fe7efe5cdfe79e390d1e55eeb3b566;Database=dfdhq1hhddqbg6;SSL Mode=Require;Trust Server Certificate=true; Pooling=true");
 			EFDbContext _ctx = new EFDbContext(dbOptionsBuilder.Options);
 			_reservationService = new ReservationService(
 				new ReservationRepository(_ctx), 
@@ -57,7 +56,7 @@ namespace Cubipool.Tests.Reservation
 				var dt = new DateTime(dateNow.Year, dateNow.Month, dateNow.Day, 7, 0, 0);
 				ReservationDto rsv = new ReservationDto
 				{
-					cubicleID = 8,
+					cubicleID = 1,
 					StartTime = dt,
 					EndTime = dt.AddHours(2),
 					hostID = 1
@@ -86,60 +85,7 @@ namespace Cubipool.Tests.Reservation
 			}
 		}
 		
-		[Fact]
-		public async void CreateReservationOnSunday()
-		{
-			try
-			{
-				var dateNow = DateTime.Now;
-				var dt = new DateTime(dateNow.Year, dateNow.Month, dateNow.Day, 7, 0, 0);
-				var nextSunday = dt.AddDays(7 - (int) dt.DayOfWeek);
-
-				ReservationDto rsv = new ReservationDto
-				{
-					cubicleID = 8,
-					StartTime = nextSunday,
-					EndTime = nextSunday.AddHours(2),
-					hostID = 1
-				};
-
-				var reservation = await _reservationService.ReservationAsync(rsv);
-				
-			
-			}
-			catch (Exception e)
-			{
-				Assert.Equal("Los cubículos no estan disponibles los domingos.", e.Message);
-			}
-		}
-		
-		[Fact]
-		public async void CreateResevationFakeUser()
-		{
-			try
-			{
-				var date = DateTime.Now;
-				var nextSunday = date.AddDays(7 - (int) date.DayOfWeek);
-				var dateNow = DateTime.Now;
-				var dt = new DateTime(dateNow.Year, dateNow.Month, dateNow.Day, 7, 0, 0);
-				ReservationDto rsv = new ReservationDto
-				{
-					cubicleID = 8,
-					StartTime = dt,
-					EndTime = dt.AddHours(2),
-					hostID = 100000
-				};
-
-				var reservation = await _reservationService.ReservationAsync(rsv);
-			;
-			}
-			catch (Exception e)
-			{
-
-				Assert.Equal("No existe ese usuario", e.Message);
-			}
-
-		}
+	
 		
 		[Fact]
 		public async void CreateReservationWrongTime()
@@ -232,4 +178,4 @@ namespace Cubipool.Tests.Reservation
 	}
 	
 	
-}*/
+}

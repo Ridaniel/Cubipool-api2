@@ -19,7 +19,7 @@ namespace Cubipool.Tests.Reservation
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.5.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    public partial class ReservarFeature : object, Xunit.IClassFixture<ReservarFeature.FixtureData>, System.IDisposable
+    public partial class BuscarUnCubiculoParaReservarFeature : object, Xunit.IClassFixture<BuscarUnCubiculoParaReservarFeature.FixtureData>, System.IDisposable
     {
         
         private static TechTalk.SpecFlow.ITestRunner testRunner;
@@ -28,10 +28,10 @@ namespace Cubipool.Tests.Reservation
         
         private Xunit.Abstractions.ITestOutputHelper _testOutputHelper;
         
-#line 1 "Reservation.feature"
+#line 1 "Buscar.feature"
 #line hidden
         
-        public ReservarFeature(ReservarFeature.FixtureData fixtureData, Cubipool_Tests_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
+        public BuscarUnCubiculoParaReservarFeature(BuscarUnCubiculoParaReservarFeature.FixtureData fixtureData, Cubipool_Tests_XUnitAssemblyFixture assemblyFixture, Xunit.Abstractions.ITestOutputHelper testOutputHelper)
         {
             this._testOutputHelper = testOutputHelper;
             this.TestInitialize();
@@ -40,8 +40,8 @@ namespace Cubipool.Tests.Reservation
         public static void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Reservation", "Reservar", "\tPara poder usar el aplicativo\r\n\tcomo estudiante\r\n\tQuiero poder reservar un cubic" +
-                    "ulo", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Reservation", "Buscar un cubiculo para reservar", "\tPara ver los cubiculos disponibles\r\n\tcomo estudiante\r\n\tQuiero ver los cubiculos " +
+                    "disponibles", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         
@@ -81,15 +81,15 @@ namespace Cubipool.Tests.Reservation
             this.TestTearDown();
         }
         
-        [Xunit.SkippableFactAttribute(DisplayName="Reserva realizado con exito")]
-        [Xunit.TraitAttribute("FeatureTitle", "Reservar")]
-        [Xunit.TraitAttribute("Description", "Reserva realizado con exito")]
-        public virtual void ReservaRealizadoConExito()
+        [Xunit.SkippableFactAttribute(DisplayName="Busqueda correcta")]
+        [Xunit.TraitAttribute("FeatureTitle", "Buscar un cubiculo para reservar")]
+        [Xunit.TraitAttribute("Description", "Busqueda correcta")]
+        public virtual void BusquedaCorrecta()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Reserva realizado con exito", null, tagsOfScenario, argumentsOfScenario);
-#line 9
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Busqueda correcta", null, tagsOfScenario, argumentsOfScenario);
+#line 8
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -109,31 +109,31 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
+#line 9
+testRunner.Given("una busqueda de un cubículo con 6 asientos", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
 #line 10
- testRunner.Given("mi usuarioId es 2", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+testRunner.And("la hora es de 8am a 11am", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 11
- testRunner.And("tiempo de inicio es en una hora", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+testRunner.Then("se presiona buscar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 12
- testRunner.And("tiempo de fin es en 2 horas", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 13
- testRunner.Then("se genera una reserva", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+testRunner.When("se muestran los cubiculos disponibles", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             }
             this.ScenarioCleanup();
         }
         
-        [Xunit.SkippableFactAttribute(DisplayName="Usuario sin reserva")]
-        [Xunit.TraitAttribute("FeatureTitle", "Reservar")]
-        [Xunit.TraitAttribute("Description", "Usuario sin reserva")]
-        public virtual void UsuarioSinReserva()
+        [Xunit.SkippableFactAttribute(DisplayName="Busqueda vacia")]
+        [Xunit.TraitAttribute("FeatureTitle", "Buscar un cubiculo para reservar")]
+        [Xunit.TraitAttribute("Description", "Busqueda vacia")]
+        public virtual void BusquedaVacia()
         {
             string[] tagsOfScenario = ((string[])(null));
             System.Collections.Specialized.OrderedDictionary argumentsOfScenario = new System.Collections.Specialized.OrderedDictionary();
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Usuario sin reserva", null, tagsOfScenario, argumentsOfScenario);
-#line 15
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("Busqueda vacia", null, tagsOfScenario, argumentsOfScenario);
+#line 14
 this.ScenarioInitialize(scenarioInfo);
 #line hidden
             bool isScenarioIgnored = default(bool);
@@ -153,17 +153,17 @@ this.ScenarioInitialize(scenarioInfo);
             else
             {
                 this.ScenarioStart();
+#line 15
+testRunner.Given("una busqueda de un cubículo con 4 asientos", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+#line hidden
 #line 16
- testRunner.Given("mi usuarioId es 2", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Given ");
+testRunner.And("la hora es de 8am a 11am", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
 #line hidden
 #line 17
- testRunner.And("tiempo de inicio es a las 5 am", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
+testRunner.Then("se presiona buscar", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
 #line 18
- testRunner.And("tiempo de fin es 2 horas despues", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "And ");
-#line hidden
-#line 19
- testRunner.Then("no se permite la reserva", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+testRunner.When("la lista de cubiculos esta vacia", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line hidden
             }
             this.ScenarioCleanup();
@@ -176,12 +176,12 @@ this.ScenarioInitialize(scenarioInfo);
             
             public FixtureData()
             {
-                ReservarFeature.FeatureSetup();
+                BuscarUnCubiculoParaReservarFeature.FeatureSetup();
             }
             
             void System.IDisposable.Dispose()
             {
-                ReservarFeature.FeatureTearDown();
+                BuscarUnCubiculoParaReservarFeature.FeatureTearDown();
             }
         }
     }
