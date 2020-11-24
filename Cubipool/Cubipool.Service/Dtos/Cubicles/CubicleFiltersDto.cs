@@ -10,6 +10,10 @@ namespace Cubipool.Service.Dtos.Cubicles
         public int ReservationHours { get; set; }
         public int TotalSeats { get; set; }
 
+        public CubicleFiltersDto()
+        {
+        }
+
         public CubicleFiltersDto(int campusId, int pavilionId, DateTime startTime, int reservationHours, int totalSeats)
         {
             CampusId = campusId;
